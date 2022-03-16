@@ -8,10 +8,20 @@ let m4 = Math.round(((Math.random() * (mMax - mMin)) + mMin)/10)*10;
 let m5 = Math.round(((Math.random() * (mMax - mMin)) + mMin)/10)*10;
 
 console.log(m1);
+let ram1 = document.querySelector("#ram-one");
+ram1.textContent = m1;
 console.log(m2);
+let ram2 = document.querySelector("#ram-two");
+ram2.textContent = m2;
 console.log(m3);
+let ram3 = document.querySelector("#ram-three");
+ram3.textContent = m3;
 console.log(m4);
+let ram4 = document.querySelector("#ram-four");
+ram4.textContent = m4;
 console.log(m5);
+let ram5 = document.querySelector("#ram-five");
+ram5.textContent = m5;
 
 let ente = [];
 function entero(){
